@@ -1,0 +1,6 @@
+The list of images in this repo are
+1. tennis.gif
+2. Actor NN 
+3. Critic NN
+4. Output score
+5. Plot of score
