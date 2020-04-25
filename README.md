@@ -51,7 +51,7 @@ Also in this attempt the agent interacted with the environment but the agent can
 ### REFERENCE
 [1] Ryan Lowe, Yi Wu, Aviv Tamar, Jean Harb, Pieter Abbeel, Igor Mordatch, Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments<br/> 
 [2] John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov, Proximal Policy Optimization Algorithms<br/>
-[3] Juliani, A., Berges, V., Vckay, E., Gao, Y., Henry, H., Mattar, M., Lange, D. (2018). Unity: A General Platform for Intelligent Agents. [arXiv preprint arXiv:1809.02627.] (https://github.com/Unity-Technologies/ml-agents)<br/>
+[3] Juliani, A., Berges, V., Vckay, E., Gao, Y., Henry, H., Mattar, M., Lange, D. (2018). Unity: A General Platform for Intelligent Agents. [arXiv preprint arXiv:1809.02627.](https://github.com/Unity-Technologies/ml-agents)<br/>
 [4] R. S. Sutton and A. G. Barto, Introduction to Reinforcement Learning, 2nd ed. Cambridge, MA, USA: MIT Press, 2017<br/>
 [5] Deterministic Policy Gradient Algorithms, Silver et al. 2014<br/>
 [6]Continuous Control With Deep Reinforcement Learning, Lillicrap et al. 2016
