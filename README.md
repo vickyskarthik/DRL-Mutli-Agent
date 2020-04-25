@@ -4,6 +4,8 @@ This repo is created as a part of [Deep Reinforcement Learning Nanodegree](https
 ### The Environment
 Follow the instructions below to explore the environment on your own machine! You will also learn how to use the Python API to control your agent.
 
+![Environment](https://github.com/vickyskarthik/DRL-Mutli-Agent/blob/master/images/tennis.gif)
+
 ## Step 1: Activate the Environment
 If you haven't already, please follow the instructions in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up your Python environment. These instructions can be found in README.md at the root of the repository. By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
 
@@ -28,3 +30,28 @@ After you have followed the instructions above, open Tennis.ipynb (located in th
 Watch the (silent) video below to see what kind of output to expect from the notebook, if everything is working properly!
 
 In the last code cell of the notebook, you'll learn how to design and observe an agent that always selects random actions at each timestep. Your goal in this project is to create an agent that performs much better!
+## Initial Observation
+![observation](https://github.com/vickyskarthik/DRL-Mutli-Agent/blob/master/images/initial%20observation.png)<br/>
+
+## Neural Network Architecture
+![Actor](https://github.com/vickyskarthik/DRL-Mutli-Agent/blob/master/images/Actor.png)<br/>
+![Critic](https://github.com/vickyskarthik/DRL-Mutli-Agent/blob/master/images/critic.png)<br/>
+## OUTPUT
+## Ouput after training
+![output](https://github.com/vickyskarthik/DRL-Mutli-Agent/blob/master/images/result.png)<br/>
+
+## Graph of Score Vs Episode
+![Graph](https://github.com/vickyskarthik/DRL-Mutli-Agent/blob/master/images/graph.png)<br/>
+
+### IDEAS FOR FUTURE WORK
+So far the agent is trained only using MADDPG which can also be implemented using the Distributed Distributional Deterministic Policy Gradients(D4PG) algorithms
+The performance can also be improved by usage of prioritized experience buffer instead of replay buffer, using other variations of noise and different model architecture.
+Also in this attempt the agent interacted with the environment but the agent can be trained using raw pixels from the environment as input.
+
+### REFERENCE
+[1] Ryan Lowe, Yi Wu, Aviv Tamar, Jean Harb, Pieter Abbeel, Igor Mordatch, Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments<br/> 
+[2] John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov, Proximal Policy Optimization Algorithms<br/>
+[3] Juliani, A., Berges, V., Vckay, E., Gao, Y., Henry, H., Mattar, M., Lange, D. (2018). Unity: A General Platform for Intelligent Agents. [arXiv preprint arXiv:1809.02627.] (https://github.com/Unity-Technologies/ml-agents)<br/>
+[4] R. S. Sutton and A. G. Barto, Introduction to Reinforcement Learning, 2nd ed. Cambridge, MA, USA: MIT Press, 2017<br/>
+[5] Deterministic Policy Gradient Algorithms, Silver et al. 2014<br/>
+[5]Continuous Control With Deep Reinforcement Learning, Lillicrap et al. 2016
